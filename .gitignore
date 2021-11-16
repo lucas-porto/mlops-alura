@@ -5,6 +5,10 @@ __pycache__/
 # C extensions
 *.so
 
+.venv/
+
+google-cloud-sdk/
+
 # Distribution / packaging
 .Python
 env/
@@ -87,3 +91,6 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+#variaveis do ambiente
+env_vars.yaml

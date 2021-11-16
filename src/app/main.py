@@ -11,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 colunas = ['tamanho', 'ano', 'garagem'] 
 
 #carregando o modelo
-modelo = pickle.load(open('../../models/modelo.sav', 'rb'))
+modelo = pickle.load(open('models/modelo.sav', 'rb')) #RETIRADO ../../ DO NOME DO ARQUIVO NA CRIAÇÃO DO DOCKER
 
 #inicializando o objeto flask
 app = Flask(__name__)
